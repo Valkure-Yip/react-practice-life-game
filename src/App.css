@@ -1,0 +1,48 @@
+:root{
+  --cell_width: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+.board10_10{
+  width: 242px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.board30_40{
+  width: 982px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell {
+  width: var(--cell_width);
+  min-height:20px;
+  min-width:20px;
+  border:1px solid gray;
+  margin: 2px;
+}
+
+.dead {
+  background-color: white;
+}
+
+.old {
+  background-color: maroon;
+}
+
+.new {
+  background-color: hotpink;
+}
+
+.mouseover {
+  border:2px solid blue;
+}
+
